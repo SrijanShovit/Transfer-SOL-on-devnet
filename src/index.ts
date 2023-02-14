@@ -54,6 +54,7 @@ async function pingProgram(connection:web3.Connection,payer:web3.Keypair) {
 }
 
 
+//
 main().then(()=>{
     console.log("Finished successfully");
 }).catch((err)=>{
